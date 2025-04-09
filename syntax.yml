@@ -1,0 +1,39 @@
+key: value
+"newKey": "newValue"
+"key2": "value 'test'"
+key4: "name : Alex"
+24: 43
+array:
+  - "value1"
+  - "value2"
+  - "value3"
+json_array: [1, 2, 3, 4]
+object:
+  key1: "value1"
+  key2: "value2"
+  key3: "value3"
+  new_object:
+    key1: "value1"
+    key2: "value2"
+    key3: "value3"
+  key4: "value4"
+json_object: { "key1": "value1", "key2": "value2", "key3": "value3" }
+boolean: true
+key5: null
+key6: ~ #null
+paragraph: >
+  This is a long paragraph that should be wrapped to the next line.
+  It contains multiple lines of text and should be formatted correctly.
+  The text should be indented properly and maintain its structure.
+  This is a long paragraph that should be wrapped to the next line.
+  It contains multiple lines of text and should be formatted correctly.
+  The text should be indented properly and maintain its structure.
+content: |-
+  dsadsad
+  sadasd
+  asdas
+alias: &foo
+  key1: "value1"
+  key2: "value2"
+  key3: "value3"
+alias_reuse: *foo
